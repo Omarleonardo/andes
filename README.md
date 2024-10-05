@@ -19,13 +19,21 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos instalados:
 Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
 1. Clonar el repositorio
+```
 git clone https://github.com/Omarleonardo/andes.git
 cd andes
+```
 
-2. Crear un entorno virtual
+
+3. Crear un entorno virtual
+```
 python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
+```
 
-3. Instalar dependencias
+4. Instalar dependencias
+```
 pip install -r requirements.txt
+```
+
 
