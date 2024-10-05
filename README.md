@@ -1,5 +1,5 @@
 # Pokedex API Middleware
-Este proyecto implementa un middleware para una Pokedex API utilizando Django Rest Framework. Permite consultar la información de Pokémon desde una API pública (pokeapi.co), con la opción de cargar los datos de los Pokémon en una base de datos local para poder editarlos.
+Este proyecto implementa un middleware para una Pokedex API utilizando Django Rest Framework. Permite consultar la información de Pokémon desde una API pública [api_oak](https://pokeapi.co/api/v2/pokemon), con la opción de cargar los datos de los Pokémon en una base de datos local para poder editarlos.
 
 ## Funcionalidades
 - **Consultar Pokémon**: Permite realizar consultas a la API externa de Pokémon para obtener información filtrada (nombre y URL de recurso).
