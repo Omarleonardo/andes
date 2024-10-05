@@ -1,0 +1,8 @@
+# Environments
+.venv
+
+# Assets
+staticfiles/*
+
+# Sqlite
+db.sqlite3
