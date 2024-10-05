@@ -37,9 +37,9 @@ def load_pokemons(request):
         info and having in your local or remote database
 
     """
-    limit = request
-    print(limit)
-    api_oak = "https://pokeapi.co/api/v2/pokemon?limit=10"
+    limit = request.GET.get("limit")
+    api_oak = f"https://pokeapi.co/api/v2/pokemon?limit={limit}"
+
     response = requests.get(api_oak)
     if response.status_code == 200:
         data = response.json()

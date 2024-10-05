@@ -17,7 +17,6 @@ def main():
         ) from exc
 
     current_path = os.path.dirname(os.path.abspath(__file__))
-    print(current_path)
     sys.path.append(os.path.join(current_path, "apps"))
 
     execute_from_command_line(sys.argv)
