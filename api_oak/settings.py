@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-wanglu$mtqn9*0bhd6wy6eta3^m=%v!zskt&&obtm()w^1)q5g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "incredible-light-production.up.railway.app"]
 
 
 # Application definition
