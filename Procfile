@@ -1,1 +1,1 @@
-web: python manage.py collecstatic && gunicorn api_oak.wsgi
+web: python manage.py collectstatic && gunicorn api_oak.wsgi
